@@ -7,6 +7,9 @@ Both models require predictor data from ERA5 and SEAS5. The LSTM-ED model additi
 
 The observed FUD is defined from the Longueuil water temperature as the first day when Tw < 0.75 degC. The time series of FUD detected from Tw can be compared against visual observations of FUD recorded by the St-Lawrence Seaway Management Corporation (SLSMC) and ice charts from the Canadian Coast Guard (CCG). 
 
+**Note**: A copy of this repository and all data can be found on `crunch` at `/storage/amelie/slice/`
+
+
 ## Installation 
 Start by cloning the repository:
 
@@ -47,6 +50,7 @@ The repository contains three main folders:
 Helper functions are saved in `functions.py`, `functions_ML.py`, `functions_MLR.py`, and `functions_encoderdecoder.py`. 
 
 **Note**: If a folder `other/` exists somewhere, it usually contains codes that were used for preliminary analysis or analyses that are not used anymore. These folders and the routines they contain and are not needed in the pipeline for generating the models and the predictions.
+
 
 ## Data
 The routines in `data_prep/` and `analysis/` are used to prepare the data, build the model, and get FUD predictions. To run them, you need to copy the `data/` folder that is located on `crunch` at `/storage/amelie/slice/data/`.
@@ -184,4 +188,22 @@ Below is a step-by-step description of what routines to run in order to get the 
 
 - ##### 2.3 Plot FUD metrics (test set only) to compare with MLR and baseline forecasts 
     Run `plot_eval_metrics.py` to compare the deterministic FUD metrics of LSTM-ED runs against climatology and MLR results. This output the figures that are used in the paper (time series of FUD prediction in perfect forecast and real-world deterministic forecast; and 6-panel figure of metrics comparing ML, MLR, and climatology).
- 
+
+
+
+## Future Work
+- An automated water temperature measurement station is to be deployed at the Longueuil water filtration plant in September 2023. It will be setup to automatically send hourly data report to `crunch:/storage/thermistor/`. The workflow will need to be adjusted to retrieve the water temperature directly from there instead of from a csv file.
+- Operationalization of workflow onto a public url is considered.
+- A solution to automatically retrieve discharge, water levels, and climate indices still needs to be arranged. 
+
+    
+## Known issues
+Download abilities of the repository in `zip` fornat may not work on all platforms. Use `clone` instead if possible, otherwise contact me.
+
+
+## Contributing
+Everyone can contribute, but to do so please contact Prof. Bruno Tremblay (bruno.tremblay@mcgill.ca).
+
+
+## Authors
+- **Amelie Bouchat** (amelie.bouchat@mail.mcgill.ca):  Coded and developped the whole program between 2020 and 2023
