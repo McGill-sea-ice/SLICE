@@ -1,0 +1,70 @@
+
+Oct. Avg. level Ottawa River | Nov. Avg. level Ottawa River | 0.85
+Oct. Avg. level Ottawa River: 0.475
+Nov. Avg. level Ottawa River: 0.323
+dropped: Nov. Avg. level Ottawa River
+-----------------------------------------------------------------------------
+Oct. PDO | Nov. PDO | 0.88
+Oct. PDO: 0.095
+Nov. PDO: 0.029
+dropped: Nov. PDO
+-----------------------------------------------------------------------------
+Sep. PDO | Oct. PDO | 0.84
+Sep. PDO: 0.156
+Oct. PDO: 0.095
+dropped: Oct. PDO
+-----------------------------------------------------------------------------
+Aug. PDO | Sep. PDO | 0.9
+Aug. PDO: 0.089
+Sep. PDO: 0.156
+dropped: Aug. PDO
+-----------------------------------------------------------------------------
+Oct. Avg. discharge St-L. River | Nov. Avg. discharge St-L. River | 0.87
+Oct. Avg. discharge St-L. River: 0.356
+Nov. Avg. discharge St-L. River: 0.282
+dropped: Nov. Avg. discharge St-L. River
+-----------------------------------------------------------------------------
+Sep. Avg. discharge St-L. River | Oct. Avg. discharge St-L. River | 0.86
+Sep. Avg. discharge St-L. River: 0.135
+Oct. Avg. discharge St-L. River: 0.356
+dropped: Sep. Avg. discharge St-L. River
+-----------------------------------------------------------------------------
+Aug. Avg. discharge St-L. River | Sep. Avg. discharge St-L. River | 0.93
+Aug. Avg. discharge St-L. River: 0.004
+Sep. Avg. discharge St-L. River: 0.135
+dropped: Aug. Avg. discharge St-L. River
+-----------------------------------------------------------------------------
+Aug. Avg. SW down (sfc) | Aug. Avg. cloud cover | 0.83
+Aug. Avg. SW down (sfc): 0.169
+Aug. Avg. cloud cover: 0.126
+dropped: Aug. Avg. cloud cover
+-----------------------------------------------------------------------------
+Sep. Avg. SW down (sfc) | Sep. Avg. cloud cover | 0.94
+Sep. Avg. SW down (sfc): 0.465
+Sep. Avg. cloud cover: 0.415
+dropped: Sep. Avg. cloud cover
+-----------------------------------------------------------------------------
+Oct. Avg. SW down (sfc) | Oct. Avg. cloud cover | 0.86
+Oct. Avg. SW down (sfc): 0.117
+Oct. Avg. cloud cover: 0.245
+dropped: Oct. Avg. SW down (sfc)
+-----------------------------------------------------------------------------
+Nov. Avg. SW down (sfc) | Nov. Avg. cloud cover | 0.82
+Nov. Avg. SW down (sfc): 0.01
+Nov. Avg. cloud cover: 0.307
+dropped: Nov. Avg. SW down (sfc)
+-----------------------------------------------------------------------------
+Sep. Avg. Twater | Sep. Avg. Ta_mean | 0.85
+Sep. Avg. Twater: 0.035
+Sep. Avg. Ta_mean: 0.002
+dropped: Sep. Avg. Ta_mean
+-----------------------------------------------------------------------------
+Oct. Avg. Twater | Oct. Avg. Ta_mean | 0.85
+Oct. Avg. Twater: 0.314
+Oct. Avg. Ta_mean: 0.213
+dropped: Oct. Avg. Ta_mean
+-----------------------------------------------------------------------------
+Nov. Avg. Twater | Nov. Avg. Ta_mean | 0.84
+Nov. Avg. Twater: 0.323
+Nov. Avg. Ta_mean: 0.472
+dropped: Nov. Avg. Twater

@@ -1,0 +1,50 @@
+============================================
+STD NORM + WITH ANOMALY - OLD VERSION
+============================================
+
+Epoch 1/2
+14/14 - 64s - loss: 0.3696 - mae: 0.7238 - val_loss: 0.3564 - val_mae: 0.7425 - lr: 0.0160 - 64s/epoch - 5s/step
+Epoch 2/2
+14/14 - 4s - loss: 0.2534 - mae: 0.6296 - val_loss: 0.2423 - val_mae: 0.6216 - lr: 0.0160 - 4s/epoch - 268ms/step
+
+TRAINING ---
+Rsqr = 0.9886
+MAE = 0.7143
+RMSE = 0.8914
+
+VALIDATION ---
+Rsqr = 0.9871
+MAE = 0.7617
+RMSE = 0.9628
+
+TEST ---
+Rsqr = 0.9873
+MAE = 0.7813
+RMSE = 0.9815
+
+
+
+============================================
+STD NORM + WITH ANOMALY - NEW VERSION (IMPACT OF DIFF IN CLIM AND IN SCALER)
+============================================
+
+TRAINING ---
+Rsqr = 0.9891
+MAE = 0.7009
+RMSE = 0.8726
+
+VALIDATION ---
+Rsqr = 0.9874
+MAE = 0.7575
+RMSE = 0.9531
+
+TEST ---
+Rsqr = 0.9871
+MAE = 0.7824
+RMSE = 0.9895
+
+
+
+
+
+

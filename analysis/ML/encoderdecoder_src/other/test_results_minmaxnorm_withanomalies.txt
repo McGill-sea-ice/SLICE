@@ -1,0 +1,53 @@
+============================================
+MINMAX NORM + WITH ANOMALY - OLD VERSION
+============================================
+Epoch 1/2
+14/14 - 64s - loss: 0.0100 - mae: 0.1178 - val_loss: 0.0116 - val_mae: 0.1239 - lr: 0.0160 - 64s/epoch - 5s/step
+Epoch 2/2
+14/14 - 4s - loss: 0.0096 - mae: 0.1132 - val_loss: 0.0118 - val_mae: 0.1244 - lr: 0.0160 - 4s/epoch - 267ms/step
+
+
+TRAINING ---
+Rsqr = 0.9788
+MAE = 0.9322
+RMSE = 1.221
+
+VALIDATION ---
+Rsqr = 0.9738
+MAE = 1.0255
+RMSE = 1.3776
+
+TEST ---
+Rsqr = 0.9739
+MAE = 1.0625
+RMSE = 1.4146
+
+
+============================================
+MINMAX NORM + WITH ANOMALY - NEW VERSION (IMPACT OF DIFF IN CLIM AND IN SCALER)
+============================================
+Epoch 1/2
+14/14 - 65s - loss: 0.0101 - mae: 0.1180 - val_loss: 0.0115 - val_mae: 0.1240 - lr: 0.0160 - 65s/epoch - 5s/step
+Epoch 2/2
+14/14 - 5s - loss: 0.0096 - mae: 0.1131 - val_loss: 0.0118 - val_mae: 0.1242 - lr: 0.0160 - 5s/epoch - 369ms/step
+
+
+TRAINING ---
+Rsqr = 0.9789
+MAE = 0.9294
+RMSE = 1.2188
+
+VALIDATION ---
+Rsqr = 0.9738
+MAE = 1.0239
+RMSE = 1.3767
+
+TEST ---
+Rsqr = 0.9739
+MAE = 1.0608
+RMSE = 1.4139
+
+
+
+
+

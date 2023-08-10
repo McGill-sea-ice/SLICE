@@ -1,0 +1,39 @@
+============================================
+MINMAX NORM + NO ANOMALY - OLD VERSION
+============================================
+Epoch 1/2
+14/14 - 66s - loss: 0.0329 - mae: 0.2415 - val_loss: 0.0217 - val_mae: 0.1896 - lr: 0.0160 - 66s/epoch - 5s/step
+Epoch 2/2
+14/14 - 4s - loss: 0.0085 - mae: 0.1191 - val_loss: 0.0027 - val_mae: 0.0660 - lr: 0.0160 - 4s/epoch - 267ms/step
+
+TRAINING ---
+Rsqr = 0.935
+MAE = 1.646
+RMSE = 2.0951
+
+VALIDATION ---
+Rsqr = 0.9347
+MAE = 1.6898
+RMSE = 2.1235
+
+TEST ---
+Rsqr = 0.9307
+MAE = 1.7673
+RMSE = 2.2617
+
+
+============================================
+MINMAX NORM + NO ANOMALY - NEW VERSION  (IMPACT OF SLIGHT DIFFERENCES IN NORMALIZATION DUE TO DIFFERENT TIME SERIES USED TO CALIBRATE THE SCALER)
+============================================
+Epoch 1/2
+14/14 - 65s - loss: 0.0330 - mae: 0.2433 - val_loss: 0.0158 - val_mae: 0.1744 - lr: 0.0160 - 65s/epoch - 5s/step
+Epoch 2/2
+14/14 - 5s - loss: 0.0088 - mae: 0.1263 - val_loss: 0.0039 - val_mae: 0.0854 - lr: 0.0160 - 5s/epoch - 367ms/step
+
+
+
+Rsqr = 0.9113
+MAE = 2.0193
+RMSE = 2.508
+
+

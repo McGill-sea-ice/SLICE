@@ -1,0 +1,48 @@
+============================================
+STANDARD NORM + NO ANOMALY - OLD VERSION
+============================================
+Epoch 1/2
+14/14 - 69s - loss: 0.1934 - mae: 0.5586 - val_loss: 0.0544 - val_mae: 0.3209 - lr: 0.0160 - 69s/epoch - 5s/step
+Epoch 2/2
+14/14 - 4s - loss: 0.0308 - mae: 0.2296 - val_loss: 0.0213 - val_mae: 0.1869 - lr: 0.0160 - 4s/epoch - 278ms/step
+
+TRAINING ---
+Rsqr = 0.9458
+MAE = 1.5632
+RMSE = 1.9397
+
+VALIDATION ---
+Rsqr = 0.9478
+MAE = 1.5656
+RMSE = 1.929
+
+TEST ---
+Rsqr = 0.9475
+MAE = 1.621
+RMSE = 1.9929
+
+
+============================================
+STANDARD NORM + NO ANOMALY - NEW VERSION  (IMPACT OF SLIGHT DIFFERENCES IN NORMALIZATION DUE TO DIFFERENT TIME SERIES USED TO CALIBRATE THE SCALER)
+============================================
+
+Epoch 1/2
+14/14 - 65s - loss: 0.2121 - mae: 0.6112 - val_loss: 0.0940 - val_mae: 0.4656 - lr: 0.0160 - 65s/epoch - 5s/step
+Epoch 2/2
+14/14 - 5s - loss: 0.0767 - mae: 0.3973 - val_loss: 0.0644 - val_mae: 0.3531 - lr: 0.0160 - 5s/epoch - 375ms/step
+
+
+TRAINING ---
+Rsqr = 0.7965
+MAE = 2.8474
+RMSE = 3.5269
+
+VALIDATION ---
+Rsqr = 0.7775
+MAE = 2.9571
+RMSE = 3.7511
+
+TEST ---
+Rsqr = 0.7912
+MAE = 2.9921
+RMSE = 3.7226

@@ -1,0 +1,53 @@
+
+Sep. PDO | Aug. PDO | 0.9
+Sep. PDO: 0.156
+Aug. PDO: 0.089
+dropped: Aug. PDO
+-----------------------------------------------------------------------------
+Oct. PDO | Sep. PDO | 0.84
+Oct. PDO: 0.095
+Sep. PDO: 0.156
+dropped: Oct. PDO
+-----------------------------------------------------------------------------
+Sep. Avg. discharge St-L. River | Aug. Avg. discharge St-L. River | 0.93
+Sep. Avg. discharge St-L. River: 0.135
+Aug. Avg. discharge St-L. River: 0.004
+dropped: Aug. Avg. discharge St-L. River
+-----------------------------------------------------------------------------
+Oct. Avg. discharge St-L. River | Sep. Avg. discharge St-L. River | 0.86
+Oct. Avg. discharge St-L. River: 0.356
+Sep. Avg. discharge St-L. River: 0.135
+dropped: Sep. Avg. discharge St-L. River
+-----------------------------------------------------------------------------
+Aug. Avg. SW down (sfc) | Aug. Avg. cloud cover | 0.83
+Aug. Avg. SW down (sfc): 0.169
+Aug. Avg. cloud cover: 0.126
+dropped: Aug. Avg. cloud cover
+-----------------------------------------------------------------------------
+Sep. Avg. SW down (sfc) | Sep. Avg. cloud cover | 0.94
+Sep. Avg. SW down (sfc): 0.465
+Sep. Avg. cloud cover: 0.415
+dropped: Sep. Avg. cloud cover
+-----------------------------------------------------------------------------
+Oct. Avg. SW down (sfc) | Oct. Avg. cloud cover | 0.86
+Oct. Avg. SW down (sfc): 0.117
+Oct. Avg. cloud cover: 0.245
+dropped: Oct. Avg. SW down (sfc)
+-----------------------------------------------------------------------------
+Sep. Avg. Twater | Sep. Avg. Ta_mean | 0.85
+Sep. Avg. Twater: 0.035
+Sep. Avg. Ta_mean: 0.002
+dropped: Sep. Avg. Ta_mean
+-----------------------------------------------------------------------------
+Oct. Avg. Twater | Oct. Avg. Ta_mean | 0.85
+Oct. Avg. Twater: 0.314
+Oct. Avg. Ta_mean: 0.213
+dropped: Oct. Avg. Ta_mean
+-----------------------------------------------------------------------------
+dropped columns: 
+['Oct. Avg. Ta_mean', 'Sep. Avg. Ta_mean', 'Aug. Avg. cloud cover', 'Oct. PDO', 'Aug. Avg. discharge St-L. River', 'Sep. Avg. discharge St-L. River', 'Oct. Avg. SW down (sfc)', 'Aug. PDO', 'Sep. Avg. cloud cover']
+-----------------------------------------------------------------------------
+used columns: 
+['Oct. Avg. cloud cover', 'Aug. Avg. level Ottawa River', 'Sep. Avg. level Ottawa River', 'Oct. Avg. level Ottawa River', 'Aug. NAO', 'Sep. NAO', 'Oct. NAO', 'Sep. PDO', 'Oct. Avg. discharge St-L. River', 'Aug. Avg. Ta_mean', 'Sep. Tot. snowfall', 'Oct. Tot. snowfall', 'Aug. Avg. windspeed', 'Sep. Avg. windspeed', 'Oct. Avg. windspeed', 'Aug. Avg. SW down (sfc)', 'Sep. Avg. SW down (sfc)', 'Aug. Avg. LH (sfc)', 'Sep. Avg. LH (sfc)', 'Oct. Avg. LH (sfc)', 'Aug. Avg. SH (sfc)', 'Sep. Avg. SH (sfc)', 'Oct. Avg. SH (sfc)', 'Aug. Avg. Twater', 'Sep. Avg. Twater', 'Oct. Avg. Twater']
+dropped columns: 
+['Oct. Avg. Ta_mean', 'Sep. Avg. Ta_mean', 'Aug. Avg. cloud cover', 'Oct. PDO', 'Aug. Avg. discharge St-L. River', 'Sep. Avg. discharge St-L. River', 'Oct. Avg. SW down (sfc)', 'Aug. PDO', 'Sep. Avg. cloud cover']

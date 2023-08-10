@@ -1,0 +1,198 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Mar 13 17:25:37 2023
+
+@author: amelie
+"""
+
+Nov. Avg. level Ottawa River | Dec.Avg. level Ottawa River | 0.85
+Nov. Avg. level Ottawa River: 0.323
+Dec.Avg. level Ottawa River: 0.458
+dropped: Nov. Avg. level Ottawa River
+-----------------------------------------------------------------------------
+Oct. Avg. level Ottawa River | Nov. Avg. level Ottawa River | 0.85
+Oct. Avg. level Ottawa River: 0.475
+Nov. Avg. level Ottawa River: 0.323
+dropped: Nov. Avg. level Ottawa River
+-----------------------------------------------------------------------------
+Jul. Avg. level Ottawa River | Aug. Avg. level Ottawa River | 0.81
+Jul. Avg. level Ottawa River: 0.169
+Aug. Avg. level Ottawa River: 0.096
+dropped: Aug. Avg. level Ottawa River
+-----------------------------------------------------------------------------
+Dec.AO | Dec.NAO | 0.82
+Dec.AO: 0.374
+Dec.NAO: 0.451
+dropped: Dec.AO
+-----------------------------------------------------------------------------
+Nov. Avg. discharge St-L. River | Dec.Avg. discharge St-L. River | 0.93
+Nov. Avg. discharge St-L. River: 0.282
+Dec.Avg. discharge St-L. River: 0.385
+dropped: Nov. Avg. discharge St-L. River
+-----------------------------------------------------------------------------
+Oct. Avg. discharge St-L. River | Dec.Avg. discharge St-L. River | 0.85
+Oct. Avg. discharge St-L. River: 0.356
+Dec.Avg. discharge St-L. River: 0.385
+dropped: Oct. Avg. discharge St-L. River
+-----------------------------------------------------------------------------
+Oct. Avg. discharge St-L. River | Nov. Avg. discharge St-L. River | 0.87
+Oct. Avg. discharge St-L. River: 0.356
+Nov. Avg. discharge St-L. River: 0.282
+dropped: Nov. Avg. discharge St-L. River
+-----------------------------------------------------------------------------
+Sep. Avg. discharge St-L. River | Oct. Avg. discharge St-L. River | 0.86
+Sep. Avg. discharge St-L. River: 0.135
+Oct. Avg. discharge St-L. River: 0.356
+dropped: Sep. Avg. discharge St-L. River
+-----------------------------------------------------------------------------
+Aug. Avg. discharge St-L. River | Sep. Avg. discharge St-L. River | 0.93
+Aug. Avg. discharge St-L. River: 0.004
+Sep. Avg. discharge St-L. River: 0.135
+dropped: Aug. Avg. discharge St-L. River
+-----------------------------------------------------------------------------
+Jul. Avg. discharge St-L. River | Sep. Avg. discharge St-L. River | 0.86
+Jul. Avg. discharge St-L. River: 0.072
+Sep. Avg. discharge St-L. River: 0.135
+dropped: Jul. Avg. discharge St-L. River
+-----------------------------------------------------------------------------
+Jul. Avg. discharge St-L. River | Aug. Avg. discharge St-L. River | 0.95
+Jul. Avg. discharge St-L. River: 0.072
+Aug. Avg. discharge St-L. River: 0.004
+dropped: Aug. Avg. discharge St-L. River
+-----------------------------------------------------------------------------
+Nov. PDO | Dec.PDO | 0.87
+Nov. PDO: 0.029
+Dec.PDO: 0.203
+dropped: Nov. PDO
+-----------------------------------------------------------------------------
+Oct. PDO | Nov. PDO | 0.88
+Oct. PDO: 0.095
+Nov. PDO: 0.029
+dropped: Nov. PDO
+-----------------------------------------------------------------------------
+Sep. PDO | Oct. PDO | 0.84
+Sep. PDO: 0.156
+Oct. PDO: 0.095
+dropped: Oct. PDO
+-----------------------------------------------------------------------------
+Aug. PDO | Sep. PDO | 0.9
+Aug. PDO: 0.089
+Sep. PDO: 0.156
+dropped: Aug. PDO
+-----------------------------------------------------------------------------
+Jul. PDO | Sep. PDO | 0.88
+Jul. PDO: 0.031
+Sep. PDO: 0.156
+dropped: Jul. PDO
+-----------------------------------------------------------------------------
+Jul. PDO | Aug. PDO | 0.91
+Jul. PDO: 0.031
+Aug. PDO: 0.089
+dropped: Jul. PDO
+-----------------------------------------------------------------------------
+Aug. SOI | Sep. SOI | 0.9
+Aug. SOI: 0.26
+Sep. SOI: 0.218
+dropped: Sep. SOI
+-----------------------------------------------------------------------------
+Jul. SOI | Sep. SOI | 0.82
+Jul. SOI: 0.15
+Sep. SOI: 0.218
+dropped: Jul. SOI
+-----------------------------------------------------------------------------
+Jul. SOI | Aug. SOI | 0.82
+Jul. SOI: 0.15
+Aug. SOI: 0.26
+dropped: Jul. SOI
+-----------------------------------------------------------------------------
+Nov. AMO | Dec.AMO | 0.95
+Nov. AMO: 0.034
+Dec.AMO: 0.008
+dropped: Dec.AMO
+-----------------------------------------------------------------------------
+Oct. AMO | Dec.AMO | 0.91
+Oct. AMO: 0.005
+Dec.AMO: 0.008
+dropped: Oct. AMO
+-----------------------------------------------------------------------------
+Oct. AMO | Nov. AMO | 0.92
+Oct. AMO: 0.005
+Nov. AMO: 0.034
+dropped: Oct. AMO
+-----------------------------------------------------------------------------
+Sep. AMO | Dec.AMO | 0.85
+Sep. AMO: 0.065
+Dec.AMO: 0.008
+dropped: Dec.AMO
+-----------------------------------------------------------------------------
+Sep. AMO | Nov. AMO | 0.82
+Sep. AMO: 0.065
+Nov. AMO: 0.034
+dropped: Nov. AMO
+-----------------------------------------------------------------------------
+Sep. AMO | Oct. AMO | 0.91
+Sep. AMO: 0.065
+Oct. AMO: 0.005
+dropped: Oct. AMO
+-----------------------------------------------------------------------------
+Aug. AMO | Dec.AMO | 0.81
+Aug. AMO: 0.028
+Dec.AMO: 0.008
+dropped: Dec.AMO
+-----------------------------------------------------------------------------
+Aug. AMO | Oct. AMO | 0.84
+Aug. AMO: 0.028
+Oct. AMO: 0.005
+dropped: Oct. AMO
+-----------------------------------------------------------------------------
+Aug. AMO | Sep. AMO | 0.95
+Aug. AMO: 0.028
+Sep. AMO: 0.065
+dropped: Aug. AMO
+-----------------------------------------------------------------------------
+Jul. AMO | Dec.AMO | 0.82
+Jul. AMO: 0.036
+Dec.AMO: 0.008
+dropped: Dec.AMO
+-----------------------------------------------------------------------------
+Jul. AMO | Nov. AMO | 0.82
+Jul. AMO: 0.036
+Nov. AMO: 0.034
+dropped: Nov. AMO
+-----------------------------------------------------------------------------
+Jul. AMO | Oct. AMO | 0.8
+Jul. AMO: 0.036
+Oct. AMO: 0.005
+dropped: Oct. AMO
+-----------------------------------------------------------------------------
+Jul. AMO | Sep. AMO | 0.87
+Jul. AMO: 0.036
+Sep. AMO: 0.065
+dropped: Jul. AMO
+-----------------------------------------------------------------------------
+Jul. AMO | Aug. AMO | 0.94
+Jul. AMO: 0.036
+Aug. AMO: 0.028
+dropped: Aug. AMO
+-----------------------------------------------------------------------------
+dropped columns:
+['Aug. Avg. discharge St-L. River', 'Nov. AMO', 'Aug. Avg. level Ottawa River', 'Jul. Avg. discharge St-L. River', 'Oct. Avg. discharge St-L. River', 'Jul. PDO', 'Nov. Avg. level Ottawa River', 'Aug. AMO', 'Oct. PDO', 'Jul. AMO', 'Oct. AMO', 'Nov. PDO', 'Aug. PDO', 'Sep. Avg. discharge St-L. River', 'Dec.AMO', 'Nov. Avg. discharge St-L. River', 'Dec.AO', 'Sep. SOI', 'Jul. SOI']
+-----------------------------------------------------------------------------
+used columns:
+['Dec.Avg. SLP', 'Nov. Avg. SLP', 'Oct. Avg. SLP', 'Sep. Avg. SLP', 'Aug. Avg. SLP', 'Jul. Avg. SLP',
+ 'Dec.Avg. cloud cover', 'Nov. Avg. cloud cover', 'Oct. Avg. cloud cover', 'Sep. Avg. cloud cover', 'Aug. Avg. cloud cover', 'Jul. Avg. cloud cover',
+ 'Dec.Avg. level Ottawa River', 'Oct. Avg. level Ottawa River', 'Sep. Avg. level Ottawa River', 'Jul. Avg. level Ottawa River',
+ 'Dec.NAO', 'Nov. NAO', 'Oct. NAO', 'Sep. NAO', 'Aug. NAO', 'Jul. NAO',
+ 'Nov. AO', 'Oct. AO', 'Sep. AO', 'Aug. AO', 'Jul. AO',
+ 'Dec.Avg. discharge St-L. River',
+ 'Dec.Avg. Ta_mean', 'Nov. Avg. Ta_mean', 'Oct. Avg. Ta_mean', 'Sep. Avg. Ta_mean', 'Aug. Avg. Ta_mean', 'Jul. Avg. Ta_mean',
+ 'Dec.Tot. snowfall', 'Nov. Tot. snowfall', 'Oct. Tot. snowfall',
+ 'Jul. Avg. windspeed', 'Aug. Avg. windspeed', 'Sep. Avg. windspeed', 'Oct. Avg. windspeed', 'Nov. Avg. windspeed', 'Dec.Avg. windspeed',
+ 'Jul. Tot. precip.', 'Aug. Tot. precip.', 'Sep. Tot. precip.', 'Oct. Tot. precip.', 'Nov. Tot. precip.', 'Dec.Tot. precip.',
+ 'Dec.PDO', 'Sep. PDO',
+ 'Dec.PNA', 'Nov. PNA', 'Oct. PNA', 'Sep. PNA', 'Aug. PNA', 'Jul. PNA',
+ 'Dec.SOI', 'Nov. SOI', 'Oct. SOI', 'Aug. SOI',
+ 'Sep. AMO']
+dropped columns:
+['Aug. Avg. discharge St-L. River', 'Nov. AMO', 'Aug. Avg. level Ottawa River', 'Jul. Avg. discharge St-L. River', 'Oct. Avg. discharge St-L. River', 'Jul. PDO', 'Nov. Avg. level Ottawa River', 'Aug. AMO', 'Oct. PDO', 'Jul. AMO', 'Oct. AMO', 'Nov. PDO', 'Aug. PDO', 'Sep. Avg. discharge St-L. River', 'Dec.AMO', 'Nov. Avg. discharge St-L. River', 'Dec.AO', 'Sep. SOI', 'Jul. SOI']

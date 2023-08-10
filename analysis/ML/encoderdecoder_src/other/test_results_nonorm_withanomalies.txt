@@ -1,0 +1,51 @@
+============================================
+NO NORM + WITH ANOMALY - OLD VERSION
+============================================
+
+Epoch 1/2
+14/14 - 69s - loss: 0.6364 - mae: 0.9347 - val_loss: 0.6698 - val_mae: 0.9769 - lr: 0.0160 - 69s/epoch - 5s/step
+Epoch 2/2
+14/14 - 4s - loss: 0.4702 - mae: 0.8225 - val_loss: 0.4884 - val_mae: 0.8423 - lr: 0.0160 - 4s/epoch - 278ms/step
+
+TRAINING ---
+Rsqr = 0.9851
+MAE = 0.8145
+RMSE = 1.0219
+
+VALIDATION ---
+Rsqr = 0.9841
+MAE = 0.8423
+RMSE = 1.0731
+
+TEST ---
+Rsqr = 0.9837
+MAE = 0.8875
+RMSE = 1.1165
+
+
+============================================
+NO NORM + WITH ANOMALY - NEW VERSION (IMPACT OF SLIGHT DIFFERENCES IN CLIM)
+============================================
+
+Epoch 1/2
+14/14 - 71s - loss: 0.6364 - mae: 0.9347 - val_loss: 0.6705 - val_mae: 0.9777 - lr: 0.0160 - 71s/epoch - 5s/step
+Epoch 2/2
+14/14 - 5s - loss: 0.4703 - mae: 0.8223 - val_loss: 0.4907 - val_mae: 0.8468 - lr: 0.0160 - 5s/epoch - 374ms/step
+
+
+TRAINING ---
+Rsqr = 0.9847
+MAE = 0.8242
+RMSE = 1.0347
+
+VALIDATION ---
+Rsqr = 0.984
+MAE = 0.8468
+RMSE = 1.0764
+
+TEST ---
+Rsqr = 0.9837
+MAE = 0.8852
+RMSE = 1.1169
+
+

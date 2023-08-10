@@ -1,0 +1,67 @@
+Nov. Avg. level Ottawa River | Dec.Avg. level Ottawa River | 0.85
+Nov. Avg. level Ottawa River: 0.323
+Dec.Avg. level Ottawa River: 0.458
+dropped: Nov. Avg. level Ottawa River
+-----------------------------------------------------------------------------
+Oct. Avg. level Ottawa River | Nov. Avg. level Ottawa River | 0.85
+Oct. Avg. level Ottawa River: 0.475
+Nov. Avg. level Ottawa River: 0.323
+dropped: Nov. Avg. level Ottawa River
+-----------------------------------------------------------------------------
+Dec.AO | Dec.NAO | 0.82
+Dec.AO: 0.374
+Dec.NAO: 0.451
+dropped: Dec.AO
+-----------------------------------------------------------------------------
+Nov. Avg. discharge St-L. River | Dec.Avg. discharge St-L. River | 0.93
+Nov. Avg. discharge St-L. River: 0.282
+Dec.Avg. discharge St-L. River: 0.385
+dropped: Nov. Avg. discharge St-L. River
+-----------------------------------------------------------------------------
+Oct. Avg. discharge St-L. River | Dec.Avg. discharge St-L. River | 0.85
+Oct. Avg. discharge St-L. River: 0.356
+Dec.Avg. discharge St-L. River: 0.385
+dropped: Oct. Avg. discharge St-L. River
+-----------------------------------------------------------------------------
+Oct. Avg. discharge St-L. River | Nov. Avg. discharge St-L. River | 0.87
+Oct. Avg. discharge St-L. River: 0.356
+Nov. Avg. discharge St-L. River: 0.282
+dropped: Nov. Avg. discharge St-L. River
+-----------------------------------------------------------------------------
+Sep. Avg. discharge St-L. River | Oct. Avg. discharge St-L. River | 0.86
+Sep. Avg. discharge St-L. River: 0.135
+Oct. Avg. discharge St-L. River: 0.356
+dropped: Sep. Avg. discharge St-L. River
+-----------------------------------------------------------------------------
+Aug. Avg. discharge St-L. River | Sep. Avg. discharge St-L. River | 0.93
+Aug. Avg. discharge St-L. River: 0.004
+Sep. Avg. discharge St-L. River: 0.135
+dropped: Aug. Avg. discharge St-L. River
+-----------------------------------------------------------------------------
+Aug. Avg. SW down (sfc) | Aug. Avg. cloud cover | 0.83
+Aug. Avg. SW down (sfc): 0.169
+Aug. Avg. cloud cover: 0.126
+dropped: Aug. Avg. cloud cover
+-----------------------------------------------------------------------------
+Sep. Avg. SW down (sfc) | Sep. Avg. cloud cover | 0.94
+Sep. Avg. SW down (sfc): 0.465
+Sep. Avg. cloud cover: 0.415
+dropped: Sep. Avg. cloud cover
+-----------------------------------------------------------------------------
+Oct. Avg. SW down (sfc) | Oct. Avg. cloud cover | 0.86
+Oct. Avg. SW down (sfc): 0.117
+Oct. Avg. cloud cover: 0.245
+dropped: Oct. Avg. SW down (sfc)
+-----------------------------------------------------------------------------
+Nov. Avg. SW down (sfc) | Nov. Avg. cloud cover | 0.82
+Nov. Avg. SW down (sfc): 0.01
+Nov. Avg. cloud cover: 0.307
+dropped: Nov. Avg. SW down (sfc)
+-----------------------------------------------------------------------------
+dropped columns: 
+['Aug. Avg. discharge St-L. River', 'Aug. Avg. cloud cover', 'Oct. Avg. discharge St-L. River', 'Sep. Avg. cloud cover', 'Nov. Avg. SW down (sfc)', 'Oct. Avg. SW down (sfc)', 'Dec.AO', 'Nov. Avg. discharge St-L. River', 'Nov. Avg. level Ottawa River', 'Sep. Avg. discharge St-L. River']
+-----------------------------------------------------------------------------
+used columns: 
+['Dec.Avg. SLP', 'Nov. Avg. SLP', 'Oct. Avg. SLP', 'Sep. Avg. SLP', 'Aug. Avg. SLP', 'Dec.Avg. cloud cover', 'Nov. Avg. cloud cover', 'Oct. Avg. cloud cover', 'Dec.Avg. level Ottawa River', 'Oct. Avg. level Ottawa River', 'Sep. Avg. level Ottawa River', 'Aug. Avg. level Ottawa River', 'Dec.NAO', 'Nov. NAO', 'Oct. NAO', 'Sep. NAO', 'Aug. NAO', 'Nov. AO', 'Oct. AO', 'Sep. AO', 'Aug. AO', 'Dec.Avg. discharge St-L. River', 'Dec.Avg. Ta_mean', 'Nov. Avg. Ta_mean', 'Oct. Avg. Ta_mean', 'Sep. Avg. Ta_mean', 'Aug. Avg. Ta_mean', 'Dec.Tot. snowfall', 'Nov. Tot. snowfall', 'Oct. Tot. snowfall', 'Aug. Avg. windspeed', 'Sep. Avg. windspeed', 'Oct. Avg. windspeed', 'Nov. Avg. windspeed', 'Dec.Avg. windspeed', 'Aug. Avg. SW down (sfc)', 'Sep. Avg. SW down (sfc)', 'Dec.Avg. SW down (sfc)', 'Aug. Avg. LH (sfc)', 'Sep. Avg. LH (sfc)', 'Oct. Avg. LH (sfc)', 'Nov. Avg. LH (sfc)', 'Dec.Avg. LH (sfc)', 'Aug. Avg. SH (sfc)', 'Sep. Avg. SH (sfc)', 'Oct. Avg. SH (sfc)', 'Nov. Avg. SH (sfc)', 'Dec.Avg. SH (sfc)']
+dropped columns: 
+['Aug. Avg. discharge St-L. River', 'Aug. Avg. cloud cover', 'Oct. Avg. discharge St-L. River', 'Sep. Avg. cloud cover', 'Nov. Avg. SW down (sfc)', 'Oct. Avg. SW down (sfc)', 'Dec.AO', 'Nov. Avg. discharge St-L. River', 'Nov. Avg. level Ottawa River', 'Sep. Avg. discharge St-L. River']

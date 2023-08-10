@@ -1,0 +1,192 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Apr 14 15:33:44 2023
+
+@author: amelie
+"""
+
+Epoch 1/2
+14/14 - 66s - loss: 0.9539 - mae: 0.7378 - val_loss: 0.9330 - val_mae: 0.7501 - lr: 0.0160 - 66s/epoch - 5s/step
+Epoch 2/2
+14/14 - 4s - loss: 0.7532 - mae: 0.6698 - val_loss: 0.7762 - val_mae: 0.6693 - lr: 0.0160 - 4s/epoch - 263ms/step
+TRAINING ---
+Rsqr = [0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99
+ 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.98 0.99 0.99
+ 0.98 0.98 0.98 0.98 0.98 0.98 0.99 0.98 0.98 0.98 0.98 0.98 0.98 0.98
+ 0.98 0.99 0.98 0.98 0.98 0.99 0.98 0.98 0.99 0.98 0.99 0.98 0.98 0.98
+ 0.98 0.98 0.98 0.98]
+MAE = [0.54 0.57 0.62 0.66 0.67 0.68 0.7  0.7  0.72 0.72 0.73 0.71 0.74 0.75
+ 0.75 0.75 0.74 0.77 0.76 0.79 0.79 0.77 0.78 0.77 0.77 0.84 0.8  0.8
+ 0.84 0.82 0.82 0.82 0.82 0.82 0.79 0.82 0.82 0.81 0.82 0.84 0.85 0.85
+ 0.83 0.8  0.83 0.87 0.82 0.8  0.83 0.85 0.78 0.84 0.79 0.81 0.84 0.82
+ 0.84 0.86 0.87 0.87]
+RMSE = [0.68 0.72 0.77 0.83 0.84 0.86 0.89 0.88 0.91 0.91 0.92 0.9  0.93 0.95
+ 0.95 0.95 0.93 0.98 0.96 1.01 1.   0.97 0.99 0.98 0.97 1.08 1.01 1.01
+ 1.07 1.05 1.04 1.04 1.04 1.05 1.01 1.04 1.04 1.03 1.04 1.08 1.08 1.09
+ 1.07 1.02 1.06 1.1  1.05 1.01 1.06 1.09 0.98 1.1  1.01 1.04 1.08 1.06
+ 1.08 1.12 1.12 1.13]
+
+VALIDATION ---
+Rsqr = [0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99
+ 0.99 0.99 0.99 0.99 0.99 0.98 0.98 0.99 0.98 0.98 0.99 0.98 0.98 0.98
+ 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98
+ 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98
+ 0.98 0.98 0.98 0.98]
+MAE = [0.57 0.62 0.66 0.68 0.7  0.69 0.71 0.7  0.71 0.71 0.7  0.71 0.72 0.73
+ 0.74 0.74 0.74 0.77 0.76 0.84 0.8  0.79 0.8  0.8  0.78 0.89 0.85 0.84
+ 0.89 0.87 0.88 0.87 0.87 0.87 0.82 0.85 0.86 0.87 0.88 0.91 0.9  0.92
+ 0.9  0.83 0.88 0.96 0.9  0.86 0.89 0.9  0.81 0.94 0.85 0.89 0.91 0.9
+ 0.92 0.95 0.95 0.97]
+RMSE = [0.73 0.79 0.84 0.87 0.88 0.88 0.91 0.9  0.9  0.9  0.89 0.89 0.92 0.94
+ 0.95 0.95 0.96 1.   0.98 1.09 1.06 1.03 1.05 1.05 1.03 1.19 1.1  1.09
+ 1.18 1.15 1.14 1.14 1.13 1.15 1.07 1.11 1.14 1.16 1.16 1.21 1.2  1.21
+ 1.2  1.1  1.18 1.24 1.18 1.13 1.19 1.21 1.07 1.26 1.11 1.16 1.19 1.18
+ 1.22 1.25 1.24 1.27]
+
+TEST ---
+Rsqr = [0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99 0.99
+ 0.99 0.99 0.99 0.99 0.99 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98
+ 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98
+ 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98 0.98
+ 0.98 0.98 0.98 0.98]
+MAE = [0.57 0.6  0.63 0.66 0.66 0.69 0.71 0.69 0.72 0.72 0.73 0.71 0.75 0.77
+ 0.79 0.79 0.79 0.84 0.83 0.89 0.89 0.87 0.88 0.88 0.88 0.96 0.91 0.91
+ 0.95 0.94 0.94 0.94 0.94 0.94 0.92 0.94 0.94 0.95 0.96 0.98 0.96 0.99
+ 0.97 0.94 0.97 1.01 0.97 0.94 0.97 0.97 0.91 0.99 0.92 0.93 0.97 0.94
+ 0.96 0.97 0.97 0.97]
+RMSE = [0.75 0.78 0.81 0.85 0.84 0.87 0.89 0.87 0.91 0.92 0.93 0.91 0.96 0.98
+ 1.   1.   1.01 1.06 1.04 1.14 1.13 1.11 1.13 1.12 1.11 1.25 1.17 1.15
+ 1.24 1.21 1.21 1.21 1.2  1.21 1.16 1.19 1.21 1.23 1.23 1.26 1.24 1.28
+ 1.27 1.2  1.26 1.29 1.26 1.21 1.27 1.26 1.15 1.3  1.17 1.21 1.25 1.22
+ 1.25 1.27 1.27 1.28]
+
+============================================
+
+TRAINING ---
+Rsqr = 0.9858
+MAE = 0.781
+RMSE = 0.994
+
+VALIDATION ---
+Rsqr = 0.9839
+MAE = 0.8202
+RMSE = 1.0713
+
+TEST ---
+Rsqr = 0.9833
+MAE = 0.8714
+RMSE = 1.1194
+=====================================================
+END!
+Total time: 147.48735737800598 seconds
+
+=======================================================================
+use_GPU = False
+
+print("Num CPUs Available: ", len(tf.config.list_physical_devices('CPU')))
+print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
+
+if use_GPU:
+    if len(tf.config.list_physical_devices('GPU')) > 0:
+        device_name = '/GPU:0'
+    else:
+        print('No GPU available... Defaulting to using CPU.')
+        device_name = '/CPU:0'
+else:
+    device_name = '/CPU:0'
+
+
+# To see on which device the operation are done, uncomment below:
+# tf.debugging.set_log_device_placement(True)
+
+# Set random seed:
+fixed_seed = True
+# fixed_seed = False
+seed = 422
+if fixed_seed:
+    tf.keras.utils.set_random_seed(seed)
+
+#%% CHOOSE MODEL SETTINGS:
+
+start_time = timer.time()
+
+# If using'standard', need to specify bounds for train/valid/test sets:
+valid_scheme = 'standard'
+train_yr_start = 1992 # Training dataset: 1993 - 2010
+valid_yr_start = 2011 # Validation dataset: 2011 - 2015
+test_yr_start = 2016 # Testing dataset: 2016 - 2021
+
+
+# SET MODEL AND TRAINING HYPER-PARAMETERS:
+
+# Choose batch size:
+batch_size = 512
+
+# Choose learning rate: (Note: Optimizer is Adam)
+optimizer_name = 'Adam'
+lr = 0.016
+
+# Choose loss function:
+loss = 'MSETw'
+
+use_exp_decay_loss = False
+tau = 30
+
+weights_on_timesteps = False
+added_weight = 1.
+Tw_thresh = 0.75
+
+loss_name = (loss
+             +weights_on_timesteps*('_with_weights'+str(added_weight).rsplit('.')[0]+'_on_thresh'+str(Tw_thresh).rsplit('.')[0]+'_'+str(Tw_thresh).rsplit('.')[1])
+             +use_exp_decay_loss*('_exp_decay_tau'+str(tau))
+             )
+
+
+# Set max. number of epochs
+n_epochs = 2
+
+# Number of hidden neurons in Encoder and Decoder
+latent_dim = 50
+nb_layers = 1
+
+# Choose Dense layer activation function and data normalization type:
+dense_act_func = None
+norm_type='Standard'
+
+# Choose Dropout rate:
+inp_dropout = 0
+rec_dropout = 0
+
+# Prediction window length, in days
+pred_len = 60
+
+# Input window length, in days
+input_len = 128
+
+# Select variables to use:
+predictor_vars = ['Avg. Ta_mean',
+                  'Avg. cloud cover',
+                  'Tot. snowfall',
+                  'NAO',
+                  'Avg. Twater',
+                  'Avg. discharge St-L. River',
+                  'Avg. level Ottawa River',
+                  ]
+
+perfect_forecast = True
+# perfect_forecast = False
+forecast_vars = ['Avg. Ta_mean',
+                'Tot. snowfall',
+                ]
+
+target_var = ['Avg. Twater']
+
+# Choose if using anomaly timeseries:
+anomaly_target = True
+anomaly_past = True
+anomaly_frcst = True
+
+save_model_outputs = False
+
+suffix = '_TEST'
