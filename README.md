@@ -35,6 +35,8 @@ conda env create -f environment.yml
 conda activate MLgpu
 ```
 
+**Note**: The conda environment can also be found at `/aos/home/amelie/miniconda3/envs/MLgpu`
+
 ## Folder organization
 The repository contains three main folders: 
 
